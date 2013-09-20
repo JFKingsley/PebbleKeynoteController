@@ -57,7 +57,7 @@ def main():
     ping_parser = subparsers.add_parser('ping', help='send a ping message')
     ping_parser.set_defaults(func=cmd_ping)
  
-    powerpoint_parser = subparsers.add_parser('powerpoint', help='control powerpoint')
+    powerpoint_parser = subparsers.add_parser('keynote', help='control keynote')
     powerpoint_parser.set_defaults(func=cmd_powerpoint)
  
     load_parser = subparsers.add_parser('load', help='load an app onto a connected watch')
