@@ -1,4 +1,4 @@
-libpebble
+KeynotePebbleController
 =========
 Interact with Keynote using your Pebble from OSX.
 
