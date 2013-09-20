@@ -497,7 +497,7 @@ class Pebble(object):
 
         """Control Keynote using Pebble Music App"""
     
-      #  self.notification_sms("KeynoteOSX", "Keynote has connected to your pebble")
+        self.notification_sms("KeynoteOSX", "Keynote has connected to your pebble")
         log.info("Keynote: Make sure Keynote is loaded and Slideshow is already started")
         keynote = SBApplication.applicationWithBundleIdentifier_("com.apple.iWork.Keynote")
         body = "Keynote has connected to your pebble"
