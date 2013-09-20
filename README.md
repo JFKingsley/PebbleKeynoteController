@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 libpebble
 =========
 Interact with your Pebble from OSX, Ubuntu or Debian operating systems.
@@ -127,3 +128,9 @@ A basic REPL is available, it is best used with ipython:
     `sudo ipython repl.py`
 
 The variable `pebble` refers to the watch connection.  You can for example perform `pebble.get_time()` to get the time of the watch
+=======
+PebbleKeynoteController
+=======================
+
+A little python app based off LibPebble that lets you control Keynote using the OSX Scripting Bridge
+>>>>>>> fa1ef46bdb097484bf843ea13cac174489ad4010
